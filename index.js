@@ -4,7 +4,7 @@ function multiply(num1, num2) {
   num1 * num2;
 }
 
-function random() {
+function Math(random) {
   let random = "Math.random";
 }
 
@@ -14,7 +14,7 @@ function mod(num3, num4) {
   num3 % num4;
 }
 
-function max() {
+function Math(max){
   let max = Math.max(
     1,
     2,
