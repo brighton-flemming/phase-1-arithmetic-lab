@@ -1,18 +1,16 @@
 function multiply(num1, num2) {
-  let num1 = 2;
-  let num2 = 31;
-  num1 * num2;
+  console.log (num1 * num2)
 }
+multiply(31,2)
 
 function Math(random) {
   let random = "Math.random";
 }
 
 function mod(num3, num4) {
-  let num3 = 64;
-  let num4 = 10;
-  num3 % num4;
+  console.log (num3 % num4)
 }
+mod (64,10)
 
 function Math(max){
   let max = Math.max(
