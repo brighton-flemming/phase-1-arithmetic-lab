@@ -3,17 +3,17 @@ function multiply(num1, num2) {
 }
 multiply(31,2)
 
-function Math(random) {
-  let random = "Math.random";
-}
+function random(number) {
+  return  Math.floor(Math.random() * number);
+} 
 
 function mod(num3, num4) {
   console.log (num3 % num4)
 }
 mod (64,10)
 
-function Math(max){
-  let max = Math.max(
+function max(number){
+  return Math.floor(Math.max(
     1,
     2,
     3,
@@ -34,5 +34,5 @@ function Math(max){
     18,
     19,
     20
-  );
+  ) * number);
 }
